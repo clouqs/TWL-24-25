@@ -1,0 +1,45 @@
+a{      /*le pseudo classi sono usati per selezionare elementi che sono in uno stato particolare(un link visitato, ecc...)*/
+    color: black;
+    text-decoration: none;
+    font-size: 70px;
+}
+
+a:visited{
+    color: lawngreen;
+    font-size: 70px; 
+}
+a:hover{
+    color: tomato;
+}
+
+a:active{
+    color: orange;  /*tieni premuto per visualizzare*/
+}
+
+#bt {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 150px;
+    left: 100px;
+}
+
+#bt:hover {
+    background-color: darkgreen;
+}
+#list{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+
+/*#list li:nth-child(1){
+    background-color: yellow;
+} */
+li:nth-child(even){        /*evidenzia gli elementi pari*/
+    background-color:powderblue;
+}
+
+li:nth-child(2n){        /*evidenzia gli elementi dispari*/
+    background-color: lightcoral;
+}
