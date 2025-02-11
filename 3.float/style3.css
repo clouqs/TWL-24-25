@@ -9,6 +9,6 @@
     float:left;         /*float = posiziona un elemento a destra/sinistra di una box/immagine...*/
                         /*Usato molto per "avvolgere" elementi attorno a delle foto/box*/   
 }
-p{
+/*p{
     clear:left
-}
+} */

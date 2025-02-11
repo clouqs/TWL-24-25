@@ -1,0 +1,28 @@
+#box1{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: skyblue;
+    position: relative; /*
+                            position: static;   → Default, nessun posizionamento speciale.
+                            position: relative; → Sposta l'elemento rispetto alla sua posizione originale.
+                            position: absolute; → Posiziona l'elemento rispetto a un genitore posizionato.
+                            position: fixed;    → Fissa l'elemento alla viewport (es. navbar, pulsanti).
+                            position: sticky;   → Elemento "appiccicoso" durante lo scorrimento (es. intestazioni).
+                        */
+
+    top: 100px;
+    left: 200px;
+}
+#box2{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: lightcoral;
+    position: fixed;
+
+    top:100px;
+    left: 300px;
+}
+
+/*33:00 minuti del video*/ 
