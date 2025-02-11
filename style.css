@@ -1,3 +1,42 @@
 body{
     background-color: rgb(255, 255, 255);
 }
+#p1{
+    color: tomato /* per cambiare il colore di un paragrafo bisogna prima
+    assegnare un id al paragrafo stesso e poi richiamarlo nel file css*/
+}
+
+.paragrafi{ /* per cambiare il colore ad un'intera classe basta assegnare una classe agli elementi desiderati e
+    richiamarli con .nome*/
+    color: blue;
+    font-weight: bold;
+}
+
+/*cambiamo i font:*/
+#p3{
+    font-family: "consolas", Courier, monospace;
+    color:greenyellow;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: rgb(29, 184, 245) dotted underline;
+}
+/*creiamo dei bordi:*/
+#h1_2{
+    border-top-style: groove;
+    border-bottom-style: double;
+    border-left-style: inset;
+}
+
+#p4{
+    border-style: outset;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 10px;
+
+
+}
+/*mettiamo uno sfondo:*/
+.sfondo1{
+    background: radial-gradient(skyblue, blue);
+}
+
