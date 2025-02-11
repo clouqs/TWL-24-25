@@ -58,7 +58,7 @@ Applica lo stile ai link (<a>) con l'attributo target="_blank".
 6. Selettore di discendenti (spazio)
 Si usa uno spazio per selezionare un elemento discendente di un altro.
 
-Esempio:
+Esempio: asdasd
 
 css
 Copy
