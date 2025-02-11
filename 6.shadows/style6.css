@@ -1,0 +1,6 @@
+h1{
+    text-shadow: 0px 5px 0px blue; 
+     /*il primo valore è l'ombra orizzontale, il secondo è l'ombra verticale, il terzo è il blur e il quarto è il colore dell'ombra*/
+     /*se metto un numero negativo l'ombra sarà a sinistra o in alto*/
+     box-shadow: 5px 5px 5px orange; /*questo invece è l'ombra del box*/
+ }
