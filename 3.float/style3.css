@@ -1,0 +1,14 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red; 
+    font-size: 20px;
+    text-align: center;
+    background-color: lightblue;
+
+    float:left;         /*float = posiziona un elemento a destra/sinistra di una box/immagine...*/
+                        /*Usato molto per "avvolgere" elementi attorno a delle foto/box*/   
+}
+p{
+    clear:left
+}
