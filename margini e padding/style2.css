@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    margin:30px;
+    margin:0px;
 }
 #box1{
     border: 5px solid;
@@ -18,8 +18,5 @@ body{
     width: 500px;
     height: auto;
     color: rgb(194, 192, 192);
-}
-a{
-    color: rgb(194, 192, 192);
-    text-decoration: none;
+    margin-left: 60px;
 }
