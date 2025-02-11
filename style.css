@@ -37,6 +37,9 @@ body{
 }
 /*mettiamo uno sfondo:*/
 .sfondo1{
-    background: radial-gradient(skyblue, blue);
+    color:rgb(86, 253, 19);
+    text-decoration: underline;
+    font-weight: bold;
+    background: radial-gradient(rgb(205, 136, 236), rgb(100, 100, 231));
+    background-attachment: fixed; /*per far si che lo sfondo rimanga fisso*/
 }
-
