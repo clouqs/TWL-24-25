@@ -50,7 +50,7 @@ Si usano le parentesi quadre per selezionare elementi con un attributo specifico
 
 Esempio:
 
-cssasd
+css
 Copy
 a[target="_blank"] { color: blue; }
 Applica lo stile ai link (<a>) con l'attributo target="_blank".
