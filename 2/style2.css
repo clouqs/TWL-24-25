@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    margin:30px;
+}
+#box1{
+    border: 5px solid;
+    width: 600px;
+    height: auto;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color:lime;
+    padding: 100px; /*il padding è la distanza tra il testo e il bordo, da non confondere con margin.*/
+}
+#box2{
+    margin-top: 30px;
+    border:5px dotted;
+    border-color: aqua;
+    width: 500px;
+    height: auto;
+    color: rgb(194, 192, 192);
+}
+a{
+    color: rgb(194, 192, 192);
+    text-decoration: none;
+}
