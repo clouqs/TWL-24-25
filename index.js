@@ -51,5 +51,7 @@ console.log(username);
 
 document.getElementById("button").onclick = function() {
     username = document.getElementById("inpt").value;
-    console.log(username);
+    document.getElementById("myH1").textContent ="Hello " + username;
+
 }
+
