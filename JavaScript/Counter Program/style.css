@@ -1,0 +1,26 @@
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 64px;
+}
+
+#btndiv {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    padding: 10px;
+    gap: 20px; /* Add space between buttons */
+}
+
+.btns {
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: rgb(25, 129, 129);
+    font-size: 70px;
+    transition: background-color 0.25s, color 0.25s;
+    cursor: pointer; /* Improve UX */
+}
+
+.btns:hover { /* Fixed hover selector */
+    background-color: rgb(25, 129, 129);
+    color: white;
+}
