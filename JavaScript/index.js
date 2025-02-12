@@ -21,4 +21,4 @@ DecreaseBtn.onclick = function() {
 ResetBtn.onclick = function() {
     count = 0;
     countLabel.textContent = count;
-} 
+}
