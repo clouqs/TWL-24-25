@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit_form.php" method="POST">
+        <h1>Modulo di contatto</h1> <br>
+        <label>* Dati obbligatori</label> <br>
+        <label>Nome * <input type="text"></label><br>
+        <label>Email * <input type="text"></label><br>
+        <label>Oggetto del messaggio *</label><select id="selector">
+            <option>Informazioni</option>
+            <option id="opt2">Assistenza</option>
+            <option>Altro</option>
+        </select><br>
+        <label>Messaggio *</label><br>
+        <textarea placeholder="descrizione" maxlength="100" id="text"></textarea> <br>
+            <label>Preferisci essere ricontattato?</label>
+            <input type="radio" name="btn">Si
+            <input type="radio" name="btn">No <br>
+        <input type="checkbox">Accetto la privacy policy *<br>
+        <button type="submit">Invia</button>
+        <br>
+        <p><span id="counter"></span>/100</p>
+
+
+
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

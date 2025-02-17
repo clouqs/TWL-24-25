@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-wrap:wrap;
+}
+#header{
+    width: 100%;
+}
+#footer {
+    width: 100%;
+}
+#sinistro{
+    width: 100%;
+}
+#destro{
+    width: 50%;
+}
+@media(min-width: 1200px){
+    #sinistro{
+        width: 50%;
+    }
+    #destro{
+        width: 50%;
+    }
+}
+.note{
+    font-family: Georgia, Tahoma, sans-serif; 
+}
+ol li:nth-child(4){
+        font-style:italic;
+    }
+a:hover{
+    backgorund-color: rgb(255, 255, 0);
+}
