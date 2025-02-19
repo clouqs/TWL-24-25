@@ -21,7 +21,7 @@ body{
     text-decoration: rgb(29, 184, 245) dotted underline;
 }
 /*creiamo dei bordi:*/
-#h1_2{
+#h1{
     border-top-style: groove;
     border-bottom-style: double;
     border-left-style: inset;
