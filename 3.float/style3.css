@@ -6,9 +6,11 @@
     text-align: center;
     background-color: lightblue;
 
-    float:left;         /*float = posiziona un elemento a destra/sinistra di una box/immagine...*/
+    float:right;         /*float = posiziona un elemento a destra/sinistra di una box/immagine...*/
                         /*Usato molto per "avvolgere" elementi attorno a delle foto/box*/   
 }
-/*p{
-    clear:left
-} */
+p{
+    clear:right /*se ci sono elementi fluttuanti a destra di un elemento con clear: 
+                    right, quest'ultimo sarà spinto verso il basso, 
+                    al di sotto degli elementi fluttuanti a destra. */
+} 

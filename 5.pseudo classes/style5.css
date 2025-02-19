@@ -13,7 +13,7 @@ a:hover{
 }
 
 a:active{
-    color: orange;  /*tieni premuto per visualizzare*/
+    color: rgb(255, 247, 0);  /*tieni premuto per visualizzare*/
 }
 
 #bt {
@@ -33,9 +33,12 @@ a:active{
     left: 0px;
 }
 
-/*#list li:nth-child(1){
+#list li:nth-child(3){ /*evidenza il terzo elemento della lista*/
+    background-color: rgb(75, 27, 221);
+}
+#list li:last-child{        /*evidenzia l'ultimo elemento della lista*/
     background-color: yellow;
-} */
+}
 li:nth-child(even){        /*evidenzia gli elementi pari*/
     background-color:powderblue;
 }

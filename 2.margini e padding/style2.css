@@ -1,8 +1,8 @@
 body{
     background-color: black;
-    margin:0px;
+    margin:auto;
 }
-#box1{
+#p1{
     border: 5px solid;
     width: 600px;
     height: auto;
@@ -11,11 +11,14 @@ body{
     color:lime;
     padding: 100px; /*il padding è la distanza tra il testo e il bordo, da non confondere con margin.*/
 }
-#box2{
-    margin-top: 30px;
+
+#p2{
+    position: absolute;
+    top:400px; /*sta a 400 px dal top della pagina*/
+    margin-top: 0px;
     border:5px dotted;
     border-color: aqua;
-    width: 500px;
+    width: 400px;
     height: auto;
     color: rgb(194, 192, 192);
     margin-left: 60px;
