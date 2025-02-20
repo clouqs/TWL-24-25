@@ -1,8 +1,15 @@
-document.getElementById("form").onsubmit = function(event) {
-    let name = document.getElementById("name").value;
-    
-    if (name.length < 3) {
-        event.preventDefault(); // Blocca l'invio del form
-        alert("Name must be at least 3 characters long");
+class Car {
+    constructor(year) {
+        this.year = year;
     }
+    calcAge(){
+        const currentYear = new Date().getFullYear();
+        return currentYear - this.year;
+    }
+}
+document.getElementById("btn").onclick = function(){
+    const inputYear = document.getElementById("year").value;
+    const myCar = new Car(inputYear);
+    const age = myCar.calcAge();
+    document.getElementById("result").textContent = `La tua auto ha ${age} anni`;   
 }
