@@ -4,6 +4,7 @@ function fahr2cels(temp) {
 function cels2fahr(temp) {
     return temp * 9/5 + 32;
 }
+/*
 document.getElementById("btn").onclick = function() {
     let temp = document.getElementById("temp").value;
     let unit1 = document.getElementById("cels2fahr");
@@ -14,5 +15,14 @@ document.getElementById("btn").onclick = function() {
         document.getElementById("result").textContent += "" + fahr2cels(temp);
     }
 }
-
+    */
+   document.getElementById("btn").addEventListener("click", function () {
+    let temp = document.getElementById("temp").value;
+    if (document.getElementById("cels2fahr").checked){
+        document.getElementById("result").textContent = "" + cels2fahr(temp);
+    } else if (document.getElementById("fahr2cels").checked){
+        document.getElementById("result").textContent = "" + fahr2cels(temp);
+    }
+   }
+   )
 
