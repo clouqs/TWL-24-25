@@ -1,15 +1,8 @@
-class Car {
-    constructor(year) {
-        this.year = year;
+document.addEventListener("input", function(){
+    let number = document.getElementById("NumberPpl").value;
+    if (number > 4) {
+        alert("The maximum number of 'persons' must be 4");
+        document.getElementById("NumberPpl").value = 4;
     }
-    calcAge(){
-        const currentYear = new Date().getFullYear();
-        return currentYear - this.year;
-    }
-}
-document.getElementById("btn").onclick = function(){
-    const inputYear = document.getElementById("year").value;
-    const myCar = new Car(inputYear);
-    const age = myCar.calcAge();
-    document.getElementById("result").textContent = `La tua auto ha ${age} anni`;   
-}
+})
+document.getElementById("NumberPpl").setAttribute("min", 0);

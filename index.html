@@ -4,31 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-<!--Rowspan-->
-    <table border="1">
-        <tr>
-            <th rowspan="2">A</th>
-            <td>B</td>
-        </tr>
-        <tr>
-            <td>C</td>
-        </tr>
-    </table>
-    <label>Queto è un rowspan</label>
-<!--Colspan-->
-    <table border="1">
-        <tr>
-            <th colspan="2">A</th>
-        </tr>
-        <tr>
-            <td>B</td>
-            <td>C</td>
-        </tr>
-    </table>
-    <label>questo è un colspan</label>
+    <form>
+    <h1>Museum Ticket Reservation</h1>
+    <label>Full name: </label><input type="text"><br>
+    <label>Email address: </label><input type="text"><br>
+    <label>Number of People:</label> <input type="number" id="NumberPpl"><br>
+    <label>Destination:</label> <select>
+        <option>Uffizi Gallery</option>
+        <option>Vatican Museum</option>
+        <option>Egyptian Museum</option>
+    </select><br>
+    <label>Date:</label><input type="date"><br>
+    <a href="tc.html">Terms and Conditions</a><br>
+    <input type="radio" name="btn">I agree
+    <input type="radio" name="btn">I disagree<br>
+    <button type="submit">Complete reservation</button>
+</form>
+<script src="index.js"></script>
 </body>
 </html>
